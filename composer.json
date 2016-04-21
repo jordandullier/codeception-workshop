@@ -1,0 +1,17 @@
+{
+  "minimum-stability":"dev",
+  "require":
+  {
+    "zendframework/zend-servicemanager": "2.5"
+  },
+  "require-dev":{
+    "codeception/codeception" : "2.1"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Project\\": "src/"
+    }
+  }
+}
